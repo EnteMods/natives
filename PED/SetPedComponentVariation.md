@@ -31,17 +31,17 @@ enum ePedVarComp
 {
     PV_COMP_INVALID = 0xFFFFFFFF,
     PV_COMP_HEAD = 0, // "HEAD"
-    PV_COMP_BERD = 1, // "BEARD"
+    PV_COMP_BERD = 1, // "MASK" > DONT MISTAKE THIS WITH BEARD
     PV_COMP_HAIR = 2, // "HAIR"
-    PV_COMP_UPPR = 3, // "UPPER"
-    PV_COMP_LOWR = 4, // "LOWER"
-    PV_COMP_HAND = 5, // "HAND"
-    PV_COMP_FEET = 6, // "FEET"
+    PV_COMP_UPPR = 3, // "UPPER" > ARMS AND UPPER BODY
+    PV_COMP_LOWR = 4, // "LOWER" > PANTS
+    PV_COMP_HAND = 5, // "HAND" > BACKPACK
+    PV_COMP_FEET = 6, // "FEET" > SHOES
     PV_COMP_TEEF = 7, // "TEETH"
-    PV_COMP_ACCS = 8, // "ACCESSORIES"
-    PV_COMP_TASK = 9, // "TASK"
-    PV_COMP_DECL = 10, // "DECL"
-    PV_COMP_JBIB = 11, // "JBIB"
+    PV_COMP_ACCS = 8, // "ACCESSORIES" > SHIRT (like the shirt below a suit)
+    PV_COMP_TASK = 9, // "TASK" > VEST
+    PV_COMP_DECL = 10, // "DECL" > DECALS FOR RANKS OR OTHER STUFF
+    PV_COMP_JBIB = 11, // "JBIB" > UPPER CLOTHING LIKE JACKETS and so on
     PV_COMP_MAX = 12,
 };
 ```
